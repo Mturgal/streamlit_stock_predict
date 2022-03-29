@@ -9,10 +9,10 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: set up 3.8.10
+    - name: set up python 3.8.10
       uses: actions/setup-python@v1
       with:
-          -python-version: 3.8.10
+          python-version: 3.8.10
       
     - name: Install dependencies
       run: |
